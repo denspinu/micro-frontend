@@ -1,0 +1,61 @@
+.pokemon-info {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pokemon-info form {
+  margin-bottom: 20px;
+}
+
+.pokemon-info input[type="text"] {
+  width: calc(100% - 80px); /* Prend toute la largeur moins la largeur du bouton */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px; /* Coins arrondis uniquement à gauche */
+  border-right: none; /* Supprime la bordure droite pour éviter le chevauchement avec le bouton */
+}
+
+.pokemon-info button[type="submit"] {
+  width: 80px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0; /* Coins arrondis uniquement à droite */
+  cursor: pointer;
+}
+
+.pokemon-info button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.pokemon-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pokemon-info img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.pokemon-info p {
+  margin: 5px 0;
+}
+
+.pokemon-info ul {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.pokemon-info ul li {
+  list-style: none;
+}
